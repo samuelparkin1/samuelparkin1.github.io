@@ -2,22 +2,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@900&display=swap');
 body {
     font-family: 'Fraunces', serif;
+    
+    min-height: 150vh;
 }
 
 * {
     margin: 0;
     padding: 0;
     }
-    * {
-        box-sizing: border-box;
-      }
+/* * {
+     box-sizing: border-box;
+    } */
 header {
   height: 50vh;
 }
 .scrolling_head {
   position: absolute;
   clip: rect(0, auto, auto, 0);
-  height: 25vh;
+  /* the indiviual heights of both top and bottom title */
+  height: 15vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -26,13 +29,43 @@ header {
 }
 .header_white {
     background: white;
+    /* the top title to start under navigation bar */
     top: 5vh;
+
   }
 
 .header_clear {
-    top: 30vh;
+     /* the bottom title to start under navigation bar and top title */
+    top: 20vh;
+    /* = header height - scrolling head height */
+    height: 35vh;
+    /* temporary back ground  */
+    background-color: black;
+
   }
-  
+
+.title_wrapper {
+    position: fixed;
+    margin: auto;
+    width: 100%;
+     /* the top title to start under navigation bar */
+    top: 5vh;
+ 
+}
+.title_wrapper h1 {
+   /* needs to match scrolling head height*/
+    height: 15vh;
+    text-align: center;
+    font-size: 5vh;
+    text-align: center;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }  
+.header_clear .title_wrapper h1 {
+    color: white;
+  }
 
 
 img{
