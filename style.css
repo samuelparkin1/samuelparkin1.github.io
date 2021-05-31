@@ -7,7 +7,32 @@ body {
 * {
     margin: 0;
     padding: 0;
-    } 
+    }
+    * {
+        box-sizing: border-box;
+      }
+header {
+  height: 50vh;
+}
+.scrolling_head {
+  position: absolute;
+  clip: rect(0, auto, auto, 0);
+  height: 25vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.header_white {
+    background: white;
+    top: 5vh;
+  }
+
+.header_clear {
+    top: 30vh;
+  }
+  
 
 
 img{
@@ -17,8 +42,7 @@ img{
     z-index: 1;
     position: fixed;
     background-color:white;
-    font-size: 20px;
-    width: 100vw;    
+    width: 100vw;  
   }
   
   .mobile_navbar a {
@@ -35,15 +59,14 @@ img{
     overflow: hidden;
   }
   
-  .dropdown .button {
-    font-size: 20px;
-    height: 7vh;
+ .button {
+    font-size: 3vh;
+    height: 5vh;
+    padding:0 3vw;
     border: none;
     outline: none;
     color: black;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
+    background-color:inherit;
     margin: 0; 
   }
   
