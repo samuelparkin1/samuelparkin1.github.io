@@ -144,18 +144,20 @@ img{
   @media screen and (min-width: 600px){
 
 /*///////////////////HEADER SETTINGS///////////////////*/
-    .header_white {
+header {
+  height: 58vh;
+}    
+.header_white {
       background: white;
       /* the top title to start under navigation bar */
-      top: 5vh;
-  
+      top: 7vh;  
     }
   
     .header_clear {
           /* the bottom title to start under navigation bar + top title */
-        top: 20vh;
+        top: 22vh;
         /* = header height - scrolling head height */
-        height: 35vh;
+        height: 37vh;
       }
     
     .title_wrapper {
@@ -163,7 +165,7 @@ img{
         margin: auto;
         width: 100%;
           /* the top title to start under navigation bar */
-        top: 5vh;
+        top: 7vh;
     }    
 /*///////////////////NAV BAR SETTING///////////////////*/
     .mobile_navbar{ 
@@ -219,7 +221,4 @@ img{
       
     }
 
-    }
-    
   }
-
