@@ -179,34 +179,30 @@ header {
       left: 0;
       background-color:white;
       overflow: hidden;
+      height: 7vh;
       padding: .5vh;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+    }
+    .topnav :nth-child(1) {
+    margin-right: auto;
+    color: white;
+    background-color:orangered;
+    border-radius: 5px;
+    width: 0;
     }
     
     /* Style the links inside the navigation bar */
     .topnav a {
       color: black;
       text-align: center;
-      padding: 2vh;
+      padding: 1vh 2vh;
       text-decoration: none;
-      font-size: 2vh;
       min-width: 10vw;
-      height: 6vh;
-    }
+     }
 
-    
-    /* Right-aligned section inside the top navigation */
-    .topnav .topnav-right a {
-      float: right;
-    }
-          /* Right-aligned section inside the top navigation */
-    .topnav .topnav-left a {
-      float: left;
-      min-width: 0vw;
-      color: white;
-      background-color:orangered;
-      border-radius: 5px;
-    }
-    /* Change the color of links on hover */
     .topnav a:hover {
       color: white;
       background-color:orangered;
