@@ -1,18 +1,20 @@
 /* defult font to be used for website */
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@900&display=swap');
 body {
-    font-family: 'Fraunces', serif;
-    
+  font-family: 'Fraunces', serif;
+  background-image: url("images/_Background/black_dropsheet.jpg");
+    background-size: 150vh;
+    background-position: top;
+    background-attachment: fixed;
     min-height: 150vh;
-}
+  }
 
 * {
     margin: 0;
     padding: 0;
-    }
-/* * {
-     box-sizing: border-box;
-    } */
+    box-sizing: border-box;
+    } 
+
 header {
   height: 50vh;
 }
@@ -39,9 +41,6 @@ header {
     top: 20vh;
     /* = header height - scrolling head height */
     height: 35vh;
-    /* temporary back ground  */
-    background-color: black;
-
   }
 
 .title_wrapper {
@@ -125,7 +124,7 @@ img{
     float: none;
     color: white;
     display: block;
-    font-size: 5vh;
+    font-size: 4vh;
     padding: 5vh 0;  
      }
   
