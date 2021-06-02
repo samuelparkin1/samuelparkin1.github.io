@@ -69,10 +69,6 @@ header {
   }
 
 
-img{
-    width: 100vw;
-}
-
 .mobile_navbar {
     z-index: 1;
     position: fixed;
@@ -163,15 +159,12 @@ img{
   
   /* Style the links inside the navigation bar */
   .bottomnav a {
-    color: black;
-    text-align: center;
-    margin: 2vh;
-    text-decoration: none;
-    width: 2vw;
+    margin: 3vw;
+    width: 7vw;
     }
 
     .bottomnav img {
-    width:2vw;
+    width:7vw;
   }
   .bottomnav a:hover {
     align-self: flex-end;     
@@ -204,7 +197,7 @@ header {
           /* the top title to start under navigation bar */
         top: 7vh;
     }    
-/*///////////////////NAV BAR SETTING///////////////////*/
+/*///////////////////TOP NAV BAR SETTING///////////////////*/
     .mobile_navbar{ 
       display: none;}
 
@@ -250,7 +243,14 @@ header {
       border: 1px solid orangered;
       border-radius: 5px;
      }
- 
+/*///////////////////BOTTOM NAV BAR SETTING////////////////*/
+.bottomnav a {
+  margin: 2vh;
+  width: 2vw;
+  }
 
+  .bottomnav img {
+  width:2vw;
+}
 
 }
