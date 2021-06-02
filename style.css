@@ -6,7 +6,9 @@ body {
     background-size: 150vh;
     background-position: top;
     background-attachment: fixed;
-    min-height: 150vh;
+    height: 150vh;
+    display:flex;
+    flex-direction: column;
   }
 
 * {
@@ -135,35 +137,47 @@ img{
     transition: all ease .5s;
    }
   
+   footer{
+     margin-top: auto;
+   }
   .dropdown:hover .links {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
-  
-  footer{
-    background-color: white;
-    width:100vw;
-    height:15vh;
+
+  .bottomnav {
+
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color:white;
+    overflow: hidden;
+    height: 7vh;
+    padding: .5vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
   }
-   .contact_links{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    
-   }
-  .contact_links a{
-    padding: 0 3vw;
-   }
-
-   .contact_links img {
-    height:4vh;
-    width:4vh;
+  
+  /* Style the links inside the navigation bar */
+  .bottomnav a {
+    color: black;
+    text-align: center;
+    margin: 2vh;
+    text-decoration: none;
+    width: 2vw;
     }
+
+    .bottomnav img {
+    width:2vw;
+  }
+  .bottomnav a:hover {
+    align-self: flex-end;     
+  }
+
+
   @media screen and (min-width: 600px){
 
 /*///////////////////HEADER SETTINGS///////////////////*/
@@ -232,11 +246,11 @@ header {
       border-radius: 5px;
       transition: .5s;
     }
-      .topnav a:active {
-        border: 1vh solid orangered;
-        border-radius: 5px;
-        transition: .5s
-    }
+    .topnav a.active {
+      border: 1px solid orangered;
+      border-radius: 5px;
+     }
+ 
 
 
 }
