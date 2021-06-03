@@ -75,9 +75,7 @@ header {
 .header_clear .title_wrapper h1 {
     color: white;
   }
-  @media screen and (min-width: 600px){
-
-    /*///////////////////HEADER SETTINGS///////////////////*/
+  @media screen and (min-width: 700px){
     header {
       height: 57vh;
     }    
@@ -289,35 +287,10 @@ width: 100%;
 
   @media screen and (min-width: 600px){
 
-/*///////////////////HEADER SETTINGS///////////////////*/
-header {
-  height: 57vh;
-}    
-.header_white {
-      background: white;
-      /* the top title to start under navigation bar */
-      top: 7vh;  
-    }
-  
-    .header_clear {
-          /* the bottom title to start under navigation bar + top title */
-        top: 22vh;
-        /* = header height - scrolling head height */
-        height: 35vh;
-      }
-    
-    .title_wrapper {
-        position: fixed;
-        margin: auto;
-        width: 100%;
-          /* the top title to start under navigation bar */
-        top: 8vh;
-    }    
 /*///////////////////TOP NAV BAR SETTING///////////////////*/
     .mobile_navbar{ 
       display: none;}
-
-
+      
     .topnav {
       display: initial;
       z-index: 1;
