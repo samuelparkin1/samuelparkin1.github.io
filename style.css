@@ -3,7 +3,7 @@
 body {
   font-family: 'Fraunces', serif;
   background-image: url("images/_Background/black_dropsheet.jpg");
-    background-size: 150vh;
+    background-size: 200vh;
     background-position: top;
     background-attachment: fixed;  
     height: 100vh;
@@ -83,6 +83,9 @@ main{
 .blog .browser_img
 {
 display:none;
+}
+article{
+  
 }
 
 .blog{
@@ -311,6 +314,8 @@ header {
       border: 1px solid orangered;
       border-radius: 5px;
      }
+
+}
 /*///////////////////BOTTOM NAV BAR SETTING////////////////*/
 .bottomnav a {
   margin: 2vh;
@@ -320,5 +325,57 @@ header {
   .bottomnav img {
   width:2vw;
 }
+@media screen and (min-width: 800px){
+/*////////////// Desktop blog content/////////////*/
+.blog .browser_img
+{
+  display: none;
+}
+.blog .mobile_img
+{
+  display: initial;
+}
+article{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin:5vh;
+ 
 
+}
+.blog{
+  width: 40VW;
+  background-color: rgba(0, 0, 0, 0.40);
+  color:white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;  
+  margin: 1vw;
+  border-top:2px solid orangered;
+}
+
+.blog div img{
+  height: 100%;
+  width: 100%;
+    object-fit: fill;
+    }
+  }
+.blog h2{ 
+  padding: 2vh;
+  font-size: 3vh;
+}
+.blog p {
+  font-size:2.5vh;
+  padding: 2vh;
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+  }
+
+.blog p i {
+  font-size: 2vh;
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+}
+.blog i a {
+  color: orangered;
 }
