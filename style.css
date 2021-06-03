@@ -15,21 +15,18 @@ body {
     box-sizing: border-box;
     } 
 
-header {
-  top: 5vh;
-  height: 50vh;
-}
-
 main{
   display:flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
 }
-/* main img{
-  width: 400px;
-  max-width: 99%;
- } */
+
+/*///////////////////HEADER SETTINGS///////////////////*/
+header {
+  top: 5vh;
+  height: 50vh;
+}
 
 .scrolling_head {
   position: absolute;
@@ -78,15 +75,39 @@ main{
 .header_clear .title_wrapper h1 {
     color: white;
   }
+  @media screen and (min-width: 600px){
 
-/*////////////// mobile blog content/////////////*/
+    /*///////////////////HEADER SETTINGS///////////////////*/
+    header {
+      height: 57vh;
+    }    
+    .header_white {
+          background: white;
+          /* the top title to start under navigation bar */
+          top: 7vh;  
+        }
+      
+        .header_clear {
+              /* the bottom title to start under navigation bar + top title */
+            top: 22vh;
+            /* = header height - scrolling head height */
+            height: 35vh;
+          }
+        
+        .title_wrapper {
+            position: fixed;
+            margin: auto;
+            width: 100%;
+              /* the top title to start under navigation bar */
+            top: 8vh;
+        }
+      }
+/*///////////////////// BLOG CONTENT ///////////////////////*/
 .blog .browser_img
 {
 display:none;
 }
-article{
-  
-}
+
 
 .blog{
   width: 100vw;
@@ -100,11 +121,6 @@ article{
   margin-bottom: 20vh;
   border-top:2px solid orangered;
 }
-
-/* .blog div{
-  padding: 2vh ;
-   }
-*/
 
 .blog div img{
 height: 100%;
@@ -129,7 +145,38 @@ width: 100%;
   color: orangered;
 }
 
+@media screen and (min-width: 700px){
+  .blog .browser_img
+  {
+    display: none;
+  }
 
+  article{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    margin:0vh 5vw 5vh 5vw;
+    
+
+  }
+  .blog{
+    width: 85vw;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;  
+    margin: 0vh 1vw 4vh 1vw;
+    border-top: 3px solid orangered;
+    border-radius: 30px;
+  }
+}
+
+@media screen and (min-width: 1100px){ 
+  .blog{
+    width: 40vw;
+  }
+}
 
 
 
@@ -325,57 +372,5 @@ header {
   .bottomnav img {
   width:2vw;
 }
-@media screen and (min-width: 800px){
-/*////////////// Desktop blog content/////////////*/
-.blog .browser_img
-{
-  display: none;
-}
-.blog .mobile_img
-{
-  display: initial;
-}
-article{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin:5vh;
- 
 
-}
-.blog{
-  width: 40VW;
-  background-color: rgba(0, 0, 0, 0.40);
-  color:white;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: flex-start;  
-  margin: 1vw;
-  border-top:2px solid orangered;
-}
 
-.blog div img{
-  height: 100%;
-  width: 100%;
-    object-fit: fill;
-    }
-  }
-.blog h2{ 
-  padding: 2vh;
-  font-size: 3vh;
-}
-.blog p {
-  font-size:2.5vh;
-  padding: 2vh;
-  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
-  }
-
-.blog p i {
-  font-size: 2vh;
-  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
-}
-.blog i a {
-  color: orangered;
-}
