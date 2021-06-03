@@ -177,12 +177,11 @@ width: 100%;
 }
 
 
-
+/*///////////////////TOP NAV BAR SETTING///////////////////*/
 /* hides the browser top navigation bar when in mobile */
 .topnav {
   display: none;
 }
-
 
 .mobile_navbar {
     z-index: 1;
@@ -220,8 +219,13 @@ width: 100%;
     background-color:orangered;
     transition: all ease .5s;
   }
-  
-  
+
+  .dropdown:hover .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+    
   .links {
       /* Hides dropdown menu */
     display: none; 
@@ -247,16 +251,59 @@ width: 100%;
     color:orangered;
     transition: all ease .5s;
    }
-  
-   footer{
-     margin-top: auto;
-   }
-  .dropdown:hover .links {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
 
+   @media screen and (min-width: 600px){
+
+    .mobile_navbar{ 
+      display: none;}
+      
+    .topnav {
+      display: initial;
+      z-index: 1;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      left: 0;
+      background-color:white;
+      overflow: hidden;
+      height: 7vh;
+      padding: .5vh;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+    }
+      .topnav :nth-child(1) {
+      margin-right: auto;
+      color: white;
+      background-color:orangered;
+      border-radius: 5px;
+    }
+      
+    /* Style the links inside the navigation bar */
+    .topnav a {
+      color: black;
+      text-align: center;
+      padding: 1vh 2vh;
+      text-decoration: none;
+      margin-left: 10px;    
+      max-width: 150px;
+      }
+  
+    .topnav a:hover {
+      color: white;
+      background-color:orangered;
+      border-radius: 5px;
+      transition: .5s;
+    }
+    .topnav a.active {
+      border: 1px solid orangered;
+      border-radius: 5px;
+      }
+  
+  }
+  
+  /*///////////////////BOTTOM NAV BAR SETTING////////////////*/
   .bottomnav {
     width: 100%;
     bottom: 0;
@@ -284,66 +331,25 @@ width: 100%;
     align-self: flex-end;     
   }
 
+  @media screen and (min-width: 700px){
 
-  @media screen and (min-width: 600px){
-
-/*///////////////////TOP NAV BAR SETTING///////////////////*/
-    .mobile_navbar{ 
-      display: none;}
-      
-    .topnav {
-      display: initial;
-      z-index: 1;
-      position: fixed;
-      width: 100%;
-      top: 0;
-      left: 0;
-      background-color:white;
-      overflow: hidden;
-      height: 7vh;
-      padding: .5vh;
-      display: flex;
-      flex-direction: row;
-      justify-content: flex-end;
-      align-items: center;
-    }
-    .topnav :nth-child(1) {
-    margin-right: auto;
-    color: white;
-    background-color:orangered;
-    border-radius: 5px;
-    width: 0;
-    }
+    .bottomnav a {
+      margin: 3vh;
+      width: 4vw;
+      }
     
-    /* Style the links inside the navigation bar */
-    .topnav a {
-      color: black;
-      text-align: center;
-      padding: 1vh 2vh;
-      text-decoration: none;
-      min-width: 10vw;
-     }
-
-    .topnav a:hover {
-      color: white;
-      background-color:orangered;
-      border-radius: 5px;
-      transition: .5s;
+      .bottomnav img {
+      width:4vw;
+      }
     }
-    .topnav a.active {
-      border: 1px solid orangered;
-      border-radius: 5px;
-     }
+  @media screen and (min-width: 1100px){
 
-}
-/*///////////////////BOTTOM NAV BAR SETTING////////////////*/
-.bottomnav a {
-  margin: 2vh;
-  width: 2vw;
-  }
+    .bottomnav a {
+      margin: 2vh;
+      width: 3vh;
+      }
 
-  .bottomnav img {
-  width:2vw;
-}
-
-
+      .bottomnav img {
+      width:3vh;
+      }
+    }
