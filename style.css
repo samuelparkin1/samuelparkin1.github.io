@@ -29,8 +29,15 @@ main{
 }
 main img{
   width: 400px;
-  max-width: 100vw;
+  max-width: 99%;
  }
+
+
+section{
+max-width: 100vw;
+ }
+
+ 
 .scrolling_head {
   position: absolute;
   clip: rect(0, auto, auto, 0);
@@ -53,7 +60,7 @@ main img{
      /* the bottom title to start under navigation bar + top title */
     top: 20vh;
     /* = header height - scrolling head height */
-    height: 35vh;
+    height: 30vh;
   }
 
 .title_wrapper {
@@ -78,6 +85,11 @@ main img{
 .header_clear .title_wrapper h1 {
     color: white;
   }
+
+/* hides the browser top navigation bar when in mobile */
+.topnav {
+  display: none;
+}
 
 
 .mobile_navbar {
@@ -154,7 +166,6 @@ main img{
   }
 
   .bottomnav {
-
     width: 100%;
     bottom: 0;
     left: 0;
@@ -186,7 +197,7 @@ main img{
 
 /*///////////////////HEADER SETTINGS///////////////////*/
 header {
-  height: 58vh;
+  height: 57vh;
 }    
 .header_white {
       background: white;
@@ -198,7 +209,7 @@ header {
           /* the bottom title to start under navigation bar + top title */
         top: 22vh;
         /* = header height - scrolling head height */
-        height: 37vh;
+        height: 35vh;
       }
     
     .title_wrapper {
@@ -206,13 +217,15 @@ header {
         margin: auto;
         width: 100%;
           /* the top title to start under navigation bar */
-        top: 7vh;
+        top: 8vh;
     }    
 /*///////////////////TOP NAV BAR SETTING///////////////////*/
     .mobile_navbar{ 
       display: none;}
 
+
     .topnav {
+      display: initial;
       z-index: 1;
       position: fixed;
       width: 100%;
