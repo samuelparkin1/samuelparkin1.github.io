@@ -243,6 +243,151 @@ width: 100%;
   }
 }
 
+/*///////////////////Connect///////////////////*/
+
+.connect{
+  display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin:0vh 5vw 20vh 5vw;
+  color: white;    
+}
+
+.bussinesscard {
+  background-color:  rgba(0, 0, 0, 0.40);
+  border-top: 3px solid orangered;
+  border-radius: 30px;
+  padding: 10px; 
+  max-width: 350px;
+  display: flex;
+  flex-direction: column-reverse;
+
+
+    }
+  .connect .bussinesscard .profile_pic{
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    padding-bottom: 20px;
+      
+  }
+  .connect .bussinesscard .contact_links{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+    align-items: flex-end;
+    text-align: center;
+    padding: 40px 0 40px 0; 
+  }
+  .connect .bussinesscard .profile_pic img {
+     border-radius: 30px;
+     height: 100%;
+     width: 100%;
+    object-fit: fill;
+   }
+  
+  .connect .bussinesscard .contact_links p a:hover{
+    color: orangered;
+    padding: 0px 5px 10px 5px;
+    transition: .5s;
+
+  }
+  .connect .bussinesscard .contact_links p{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+
+
+  }
+
+  .connect .bussinesscard .contact_links p a{
+    color: white;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+    }
+
+.connect .bussinesscard .contact_links img{
+  width: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+@media screen and (min-width: 700px){
+  
+.connect{
+  display: flex; 
+  flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin:0vh 5vw 20vh 5vw;
+  color: white;    
+}
+
+.bussinesscard {
+  background-color:  rgba(0, 0, 0, 0.40);
+  border-top: 3px solid orangered;
+  border-radius: 30px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 800px;
+  width: 90vw;
+
+  }
+  .connect .bussinesscard .profile_pic{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+  }
+  .connect .bussinesscard .contact_links{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+  }
+    
+  .connect .bussinesscard .contact_links p{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; 
+  }
+  .connect .bussinesscard .contact_links p a:hover{
+    color: orangered;
+    padding: 0px 5px 10px 5px;
+    transition: .5s;
+
+  }
+
+
+  .connect .bussinesscard .contact_links p a{
+    color: white;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    font-size: 3vh;
+    padding: 5px;
+    }
+
+.connect .bussinesscard .contact_links img{
+  width: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.connect .bussinesscard .profile_pic img {
+ max-width: 250px;
+  border-radius: 30px;
+}
+}
 
 /*///////////////////TOP NAV BAR SETTING///////////////////*/
 /* hides the browser top navigation bar when in mobile */
