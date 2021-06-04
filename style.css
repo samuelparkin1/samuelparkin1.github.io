@@ -165,15 +165,18 @@ header {
 
 
 /*///////////////////// BLOG CONTENT ///////////////////////*/
-.blog .browser_img
-{
-display:none;
+.blog_page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin:0vh 5vw 20vh 5vw;
+ color: white;
+
 }
 
-
 .blog{
-  width: 100vw;
-  max-width: 800px;
+
   background-color: rgba(0, 0, 0, 0.40);
   color:white;
   display: flex;
@@ -181,7 +184,8 @@ display:none;
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 20vh;
-  border-top:2px solid orangered;
+  border-top: 3px solid orangered;
+  border-radius: 30px;
 }
 
 .blog div img{
@@ -495,6 +499,7 @@ width: 100%;
     /* Style the links inside the navigation bar */
     .topnav a {
       color: black;
+      font-size: 22px;
       text-align: center;
       padding: 1vh 2vh;
       text-decoration: none;
