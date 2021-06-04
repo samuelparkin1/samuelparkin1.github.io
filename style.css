@@ -101,62 +101,66 @@ header {
         }
       }
 /*///////////////////// MY EXPERIENCE CONTENT ///////////////////////*/
-.my_experience{
-  display: flex; 
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: stretch;
-  margin:0vh 5vw 5vh 5vw;
-}
-
-.coding {
-  background-color: rgba(0, 0, 0, 0.40);
-  color:white;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin-bottom: 20vh;
-  border-top: 3px solid orangered;
-  border-radius: 30px;
-  
-}
-.coding div {
-  max-width: 20vw;
-  min-width: 300px;
+  .my_experience{
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    margin:0vh 5vw 20vh 5vw;
+    color: white;
+    
   }
 
-.coding div h2{
-  text-align: center;
+  .coding {
+    background-color: rgba(0, 0, 0, 0.40);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;    
+    margin-bottom: 5vh;
+    border-top: 3px solid orangered;
+    border-radius: 30px;    
+    }
+
+  .pastcareer{ 
+    background-color: rgba(0, 0, 0, 0.40);
+    margin-bottom: 5vh;
+    border-top: 3px solid orangered;
+    border-radius: 30px;
+   }
+   
+  .coding div {
+    max-width: 22vw;
+    min-width: 300px;
+    margin-bottom: 10vh;
+    }
+
+   .my_experience h2{
+    text-align: center;
+    }
+
+  .coding div img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    height: 150px;
+    }
+
+  .my_experience h2{ 
+    padding: 10px;
+    font-size: 3vh;
   }
+  .my_experience p {
+    font-size:2.5vh;
+    padding: 2vw;
+    font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    }
 
-.coding div img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto; 
-  height: 150px;
+  .my_experience p a {
+    color: orangered;
   }
-
-.coding h2{ 
-  padding: 2vh;
-  font-size: 3vh;
 }
-.coding p {
-  font-size:2.5vh;
-  padding: 2vh;
-  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
-  }
-
-.coding p i {
-  font-size: 2vh;
-  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
-}
-.coding i a {
-  color: orangered;
-}
-
-
 
 
 
@@ -351,6 +355,7 @@ width: 100%;
       text-decoration: none;
       margin-left: 10px;    
       max-width: 150px;
+      
       }
   
     .topnav a:hover {
