@@ -105,7 +105,7 @@ header {
   display: flex; 
   flex-direction: column;
   justify-content: center;
-  align-items: stretch;
+  align-items: center;
   margin:0vh 5vw 20vh 5vw;
   color: white;
 }
@@ -125,6 +125,7 @@ header {
   margin-bottom: 5vh;
   border-top: 3px solid orangered;
   border-radius: 30px;
+  max-width: 70vw;
 }
 
 .about .about_me h2{ 
@@ -133,8 +134,8 @@ header {
     text-align: center;
   }
 .about .about_me p {
+  text-align: center;
     font-size:2.5vh;
-    padding: 2vw;
     font-family: "Segoe UI", Helvetica, Arial, sans-serif;
     }
 
