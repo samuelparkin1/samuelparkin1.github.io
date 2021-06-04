@@ -100,6 +100,66 @@ header {
             top: 8vh;
         }
       }
+/*///////////////////// MY EXPERIENCE CONTENT ///////////////////////*/
+.my_experience{
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  margin:0vh 5vw 5vh 5vw;
+}
+
+.coding {
+  background-color: rgba(0, 0, 0, 0.40);
+  color:white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 20vh;
+  border-top: 3px solid orangered;
+  border-radius: 30px;
+  
+}
+.coding div {
+  max-width: 20vw;
+  min-width: 300px;
+  }
+
+.coding div h2{
+  text-align: center;
+  }
+
+.coding div img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+  height: 150px;
+  }
+
+.coding h2{ 
+  padding: 2vh;
+  font-size: 3vh;
+}
+.coding p {
+  font-size:2.5vh;
+  padding: 2vh;
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+  }
+
+.coding p i {
+  font-size: 2vh;
+  font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+}
+.coding i a {
+  color: orangered;
+}
+
+
+
+
+
 /*///////////////////// BLOG CONTENT ///////////////////////*/
 .blog .browser_img
 {
@@ -141,6 +201,9 @@ width: 100%;
 }
 .blog i a {
   color: orangered;
+}
+.blog #date{
+  text-align: end;
 }
 
 @media screen and (min-width: 700px){
