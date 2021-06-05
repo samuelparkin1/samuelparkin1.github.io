@@ -125,8 +125,7 @@ header {
   margin-bottom: 5vh;
   border-top: 3px solid orangered;
   border-radius: 30px;
-  max-width: 70vw;
-}
+ }
 
 .about .about_me h2{ 
     padding: 10px;
@@ -295,8 +294,6 @@ width: 100%;
     flex-wrap: wrap;
     justify-content: center;
     align-items: stretch;
-    margin:0vh 5vw 5vh 5vw;
-    
 
   }
   .blog{
