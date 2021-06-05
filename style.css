@@ -128,13 +128,13 @@ header {
  }
 
 .about .about_me h2{ 
-    padding: 10px;
     font-size: 3vh;
     text-align: center;
   }
 .about .about_me p {
   text-align: center;
     font-size:2.5vh;
+    padding: 2.5vh;
     font-family: "Segoe UI", Helvetica, Arial, sans-serif;
     }
 
@@ -186,7 +186,7 @@ header {
   .coding div {
     max-width: 22vw;
     min-width: 300px;
-    margin-bottom: 10vh;
+    
     }
 
   .coding div img{
@@ -278,7 +278,7 @@ width: 100%;
 .blog i a {
   color: orangered;
 }
-.blog #date{
+.blog .date{
   text-align: end;
 }
 
@@ -565,12 +565,11 @@ width: 100%;
     /* Style the links inside the navigation bar */
     .topnav a {
       color: black;
-      font-size: 22px;
+      font-size: 1.5vh;
       text-align: center;
       padding: 1vh 2vh;
-      text-decoration: none;
-      margin-left: 10px;    
-      max-width: 150px;
+      text-decoration: none;         
+      max-width:20vw;
       
       }
   
