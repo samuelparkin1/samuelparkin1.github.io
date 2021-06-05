@@ -61,7 +61,7 @@ header {
     top: 5vh;
  
 }
-.title_wrapper h1 {
+.title_wrapper p {
    /* needs to match scrolling head height*/
     height: 15vh;
     text-align: center;
@@ -72,7 +72,7 @@ header {
     flex-direction: column;
     justify-content: center;
     }  
-.header_clear .title_wrapper h1 {
+.header_clear .title_wrapper p {
     color: white;
   }
   @media screen and (min-width: 700px){
