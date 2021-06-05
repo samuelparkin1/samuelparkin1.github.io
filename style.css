@@ -202,14 +202,31 @@ header {
     font-size: 3vh;
     text-align: center;
   }
+  .my_experience h3{ 
+    font-size: 2.5vh;
+    text-align: center;
+  }
+
+  .my_experience div {
+    padding: 2vw;
+  }
   .my_experience p {
     font-size:2.5vh;
-    padding: 2vw;
+    padding-bottom: 2vh;    
     font-family: "Segoe UI", Helvetica, Arial, sans-serif;
     }
 
+    .my_experience ul, h3 {
+      font-size:2.5vh;
+      padding-bottom: 2vh;     
+      font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+      }
+ 
   .my_experience p a {
     color: orangered;
+  }
+  .pastcareer {
+    padding: 2vw;
   }
 
 
