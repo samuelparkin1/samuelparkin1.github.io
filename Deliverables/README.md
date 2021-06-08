@@ -56,7 +56,9 @@ Mobile
 <img src="docs\Screenshots\Web Screen shots\Mobile\Mobile_connect.png" alt="Mobile Connect Page" width="300"/>
 
 desktop light house report:
-[Desktop light house report.pdf](/docs\Screenshots\desktop_light_house_report.pdf)
+<a href="docs\Screenshots\desktop_light_house_report.pdf">Desktop light house report.pdf</a>.  
+
+[Desktop light house report.pdf](\docs\Screenshots\desktop_light_house_report.pdf)
 
 mobile light house report:
 [Mobile light house report.pdf](/docs\Screenshots\Mobile_light_house_report.pdf)
