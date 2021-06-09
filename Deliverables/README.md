@@ -1,4 +1,25 @@
-- A link (URL) to your published portfolio website
+# Samuel Parkin Profolio Website.
+
+**Table of Contents**
+
+- [ Github link. ](#Github_link)
+- [ test ](#test)
+- [ Github link. ](#Github_link)
+- [ Github link. ](#Github_link)
+
+
+
+
+
+A link (URL) to your published portfolio website
+
+
+
+<a name="Github_link"></a>
+## 1. Description  
+
+
+
 - A link to your code repository (repo)
   - Ensure the repo is accessible by your Educators
 - Description of your portfolio website, including,
@@ -58,10 +79,10 @@ Mobile
 desktop light house report:
 <a href="docs\Screenshots\desktop_light_house_report.pdf">Desktop light house report.pdf</a>.  
 
-[Desktop light house report.pdf](\docs\Screenshots\desktop_light_house_report.pdf)
-
 mobile light house report:
-[Mobile light house report.pdf](/docs\Screenshots\Mobile_light_house_report.pdf)
+<a href="docs\Screenshots\Mobile_light_house_report.pdf">Desktop light house report.pdf</a>.
+
+
 
 
 <img src="" alt="" width="300"/>  
@@ -69,6 +90,21 @@ mobile light house report:
 <img src="" alt="" width="300"/>  
 <img src="" alt="" width="300"/>  
 <img src="" alt="" width="300"/>  
-- Target audience
-- Tech stack (e.g. html, css, deployment platform, etc)
-![Tech_stack](docs\Tech_stack\Tech_Stack-removebg-preview.png)
+
+- Target audience  
+
+- Tech stack (e.g. html, css, deployment platform, etc)  
+
+<img src="docs\Tech_stack\Tech_Stack-removebg-preview.png" alt="Tech Stack" width="300"/>  
+
+
+- Sitemap verifictation  
+
+<img src="docs\Screenshots\Sitemap_verification.PNG" alt="Sitemap_verification" width="300"/>
+
+- google ownership  
+
+<img src="docs\Screenshots\Google_ownership_verified.PNG" alt="Google ownership verified" width="300"/> 
+
+<a name="test"></a>
+## 1. test 
