@@ -16,7 +16,7 @@
       * [ Home Page. ](#Home_Page)
       * [ Experience. ](#Experience)
       * [ Blog. ](#Blog)
-      * [ Connect. ](#Connect)
+      * [ Connect. ](#Connect)  
 <br>  
 ___  
 
@@ -49,7 +49,7 @@ ___
 
 
 
-<a name="Target_audience."></a>  
+<a name="Target_audience"></a>  
 ### Target audience.  
 
 [ *Back to Table of Contents* ](#Table_of_Contents)
@@ -80,7 +80,7 @@ desktop light house report:
 <a href="docs\Screenshots\desktop_light_house_report.pdf">Desktop light house report.pdf</a>.  
 
 mobile light house report:
-<a href="docs\Screenshots\Mobile_light_house_report.pdf">Desktop light house report.pdf</a>.
+<a href="docs\Screenshots\Mobile_light_house_report.pdf">Mobile light house report.pdf</a>.
 
 - Sitemap verifictation  
   <img src="docs\Screenshots\Sitemap_verification.PNG" alt="Sitemap_verification" width="300"/>
