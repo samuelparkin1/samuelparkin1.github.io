@@ -10,18 +10,26 @@
     + [ Target audience. ](#Target_audience)
     + [ Sitemap. ](#Sitemap)
     + [ Tech stack. ](#Tech_stack)
-    + [ Site validation and report ](#validation_report)
-    + [ Functionality / features. ](#Functionality)    
+    + [ Validation and report ](#validation_report)  
+      * [ Desktop light house report ](#Desktop_light_house_report)
+      * [ Mobile light house report ](#Mobile_light_house_report)
+      * [ XML validation results ](#XML_validation_results)
+      * [ Google Ownership Verification ](#Google_Ownership_Verification) 
+    + [ Functionality / features. ](#Functionality)  
+      * [ Scrolling Header ](#Scrolling_Header)
+      * [ Hamburger menu for Phone browser. ](#Hamburger_menu_for_Phone_browser)
+      * [ Top Navigation selection and hover for desktop browser. ](#Top_Navigation_selection)  
+      * [ Hovering footer links for desktop browser.](#Hovering_footer_links)
+      * [ Black blank canvas.](#Black_blank_canvas)
     + [ Screenshots. ](#Screenshots)  
       * [ Home Page. ](#Home_Page)
       * [ Experience. ](#Experience)
       * [ Blog. ](#Blog)
       * [ Connect. ](#Connect)  
-<br>  
 ___  
 
-<a name="portfolio_website"></a>
-## Samuel Parkin's published portfolio website.
+
+## Published portfolio website.
 Samuel Parkin's Protfolio pages can be found at [samuelparkin1.github.io/](#https://samuelparkin1.github.io/)  
 
 [ *Back to Table of Contents* ](#Table_of_Contents)
@@ -29,7 +37,7 @@ Samuel Parkin's Protfolio pages can be found at [samuelparkin1.github.io/](#http
 ___ 
 
 <a name="Github_link"></a>
-## Samuel Parkin's Portfolio Page repository. 
+## Portfolio Page repository. 
 To review all code and documents accociated to Samuel Parkin's Portfolio Page go to  [github.com/samuelparkin1](#https://github.com/samuelparkin1/samuelparkin1.github.io)  
 
 [ *Back to Table of Contents* ](#Table_of_Contents)
@@ -38,26 +46,38 @@ ___
 
 
 <a name="Description"></a>
-## Description portfolio website.
+## Description of Samuel Parkin's portfolio website.
   
 <a name="Purpose"></a>  
-### Purpose.   
+### Purpose.
+The purpuse of this portfolio website is to showcases my talent, abilities and coding experiance. Creating a potfolio website is a great way to share these skills with others and potential employers.   
 
 [ *Back to Table of Contents* ](#Table_of_Contents)
 <br>   
 ___ 
 
-
-
 <a name="Target_audience"></a>  
-### Target audience.  
+### Target audience.
+The target audience for this portfolio website is for potential employers / clients that are seeking to engage with myself as a dev and/or IT professional.
+This portfolio will show case my professionalism and a positive work ethic.
+The portfolio has been developed recognizing that there will be  an understanding of technical knowledge relating to information technology, software development/coding, programming languages and development stacks by the employer.
 
 [ *Back to Table of Contents* ](#Table_of_Contents)
 <br>   
 ___  
 
 <a name="Sitemap"></a>  
-### Sitemap.  
+### Sitemap. 
+ The below site map helps illistate the flow and content of my portfolio.
+
+ The content on the **Home page** shares with the vistor who I am and that i'm an expiring Dev IT professional. I have used my wording in the content to show my personailty as someone who is friendly and approachable. 
+
+Within the **Experience** page I have show cased my IT skills by sharing my knowegle within different coding lagages and coding practices. It also shares my previous work history and abilities and goes on to sharing a link to a PDF of my resume.  
+
+The **Blog** pages shows 5 of my latest interests within the IT space.
+
+Finally, on the **Connect** page shows where to find links to professional accounts such Github and LinkedIn and also an email address so I can be conntacted directly.
+
 <img src="docs\Site_Map\Site_map.png" alt="site_map" width=""/>  
 
 [ *Back to Table of Contents* ](#Table_of_Contents)
@@ -65,7 +85,14 @@ ___
 ___
 
 <a name="Tech_stack"></a>  
-### Tech stack.  
+### Tech stack. 
+The tech stack diagram show the flow and list all the technology services used to build the Portfolio website.  
+
+In the **Design** stage Balsamiq Wireframe was used to generate digital sketches of the ideas and concept to be used on the portfolio.
+
+While in the **Create** stage, VS studio was used to write the HTML and CSS code. Through out the create stage GIT was contiuously used as the repository system. At the final stage of creating the portfolio XML-Sitemaps was used to create the porfolios XML code.
+
+When the site was ready to **Deploy**, the final code was uploaded to Github in order to be view by the web. The Lighhouse tool helped ensure that the Protfolio page has adiquite performance and accessibility. To improve search visbility, Google Search Console was used to help in the measuring of the portfolios search traffic and performance.  
 
 <img src="docs\Tech_stack\Tech_Stack-removebg-preview.png" alt="Tech Stack" width=""/>  
 
@@ -74,18 +101,25 @@ ___
 ___
 
 <a name="validation_report"></a>  
-### Site validation and report.
- 
-desktop light house report:
+### Validation and reports.  
+Below are the Portfoilos Validation and reports that the Portfoilio page received during its deployment stage.  
+
+ <a name="Desktop_light_house_report"></a>
++ Desktop light house report:
 <a href="docs\Screenshots\desktop_light_house_report.pdf">Desktop light house report.pdf</a>.  
 
-mobile light house report:
-<a href="docs\Screenshots\Mobile_light_house_report.pdf">Mobile light house report.pdf</a>.
+<a name="Mobile_light_house_report"></a>
++ Mobile light house report:
+<a href="docs\Screenshots\Mobile_light_house_report.pdf">Mobile light house report.pdf</a>.  
 
-- Sitemap verifictation  
+<a name="XML_validation_results"></a>
++ XML validation results  
+
   <img src="docs\Screenshots\Sitemap_verification.PNG" alt="Sitemap_verification" width="300"/>
+  
+<a name="Google_ownership"></a>
++ Google Ownership Verification 
 
-- google ownership  
   <img src="docs\Screenshots\Google_ownership_verified.PNG" alt="Google ownership verified" width="300"/>  
 
 [ *Back to Table of Contents* ](#Table_of_Contents)
@@ -94,18 +128,45 @@ ___
   
 <a name="Functionality"></a>  
 ### Functionality / features.  
-<br>   
 
-<img src="docs\Functionality_and_features\Menu_Hover.png" alt="Menu Hover" width="300"/>
+<a name="Scrolling_Header"></a>  
++ ### Scrolling Header.    
+  Each page shares a common theme with a Scrolling transition within the Header. As the content is scrolled up the Title within the header transitions from white to black.  
 
-<img src="docs\Functionality_and_features\Icon_Hover.png" alt="Icon Hover" width="300"/>
+  <img src="docs\Functionality_and_features\Scroll_Transition.png" alt="scroll transition" width="300"/>  
+  
+<br>  
+
+<a name="Hamburger_menu_for_Phone_browser"></a>
++ ### Hamburger menu for Phone browser.  
+  When the Portfolio is being veiwed by a mobile device, the top navigation menu changes to a hamburger style menu. When the menu is opened up, links to the other pages fill the screen. This is to make is easier to select which page to go to when on a small screen. 
 
 
-<img src="docs\Functionality_and_features\Mobile_hamburger_menu.png" alt="Mobile hamburger menu" width="300"/>
+  <img src="docs\Functionality_and_features\Mobile_hamburger_menu.png" alt="Mobile hamburger menu" width="300"/>  
+    
+<br>  
 
-<img src="docs\Functionality_and_features\Scroll_Transition.png" alt="scroll transition" width="300"/>  
+<a name="Top_Navigation_selection"></a>
++ ### Top Navigation selection and hover for desktop browser.
+  When in a Desktop browser the top navigation bar will put a oragnge border around the tab of the current page. When selcting another page's tab, the tab will change to a solid orange colour.
 
-<img src="ppt\black_dropsheet.jpg" alt="website background image" width="300"/>  
+  <img src="docs\Functionality_and_features\Menu_Hover.png" alt="Menu Hover" width="300"/>
+      
+<br>  
+<a name="Hovering_footer_links"></a>
++ ### Hovering footer links for desktop browser.
+    Each page shares a common footer theme with links to professional and social media accounts. when the mouse hovers over an icon, the icon will lift slightky to inidcate it has been selected.  
+
+  <img src="docs\Functionality_and_features\Icon_Hover.png" alt="Icon Hover" width="300"/>
+      
+<br>  
+
+<a name="Black_blank_canvas"></a>
++ ### Black blank canvas.
+  Each page has a black sheet as its background. 
+  This was chosen to simbalise as a blank canvas and that my coding experience is still at its early stages.  
+    
+  <img src="ppt\black_dropsheet.jpg" alt="website background image" width="300"/>  
 
 [ *Back to Table of Contents* ](#Table_of_Contents)
 <br>   
