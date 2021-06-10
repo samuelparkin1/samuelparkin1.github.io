@@ -1,0 +1,493 @@
+commit 1b7c6dd2b5247d49d75d7be21ff82677916cc8ee
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Thu Jun 10 15:03:22 2021 +1000
+
+    moved all portfolio files out of src folder in order to gt github.io working
+
+commit 007e4f5936c305d158133d994a3a0d9b1c1caaf2
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Thu Jun 10 14:58:04 2021 +1000
+
+    moved all files into folder format for submission
+
+commit 0556f4367eee0e9d02fe2a096b929dc4d53abddc
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Thu Jun 10 14:42:37 2021 +1000
+
+    SHA added to index, powerpoint complete
+
+commit c3b978db9c504ac18ab2915934f38666c8492f4d
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Thu Jun 10 12:57:14 2021 +1000
+
+    change instagram icon
+
+commit 887fb86396fa0dbff0f44f3dbcb2b23a71754736
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Thu Jun 10 12:52:32 2021 +1000
+
+    replaced missing instagram icon on connect page
+
+commit a082d552dce06d28c7ada8381874a368dfbd92ad
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Wed Jun 9 19:36:50 2021 +1000
+
+    PPT Count
+
+commit 06af2685d56a3de29f52f8efba366682309b595d
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Wed Jun 9 15:54:14 2021 +1000
+
+    README completed
+
+commit 8e922ccdb32f3eff884724aa03e3fde079f085fd
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Wed Jun 9 15:45:43 2021 +1000
+
+    README content cont
+
+commit ec67d6da8725586dcb20e14f1d93f51d2d355d98
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Wed Jun 9 12:42:17 2021 +1000
+
+    README Links fixed
+
+commit f0ef922f8618568201db2e074df3415b47ddb785
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Wed Jun 9 12:36:11 2021 +1000
+
+    layout of MD complete
+
+commit dabf9f17bfd5cb9305948d2a12021db854867839
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Wed Jun 9 10:38:22 2021 +1000
+
+    edits to MD
+
+commit 431770418d993fb3b8a0242045fe9646e8a8d019
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Tue Jun 8 18:29:46 2021 +1000
+
+    PDF problem solving
+
+commit 18e9198aad1f0464370cc050015b4a38e42d3022
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Tue Jun 8 18:19:25 2021 +1000
+
+    add PDF to MD
+
+commit cf24aecd78432840fe9864aac1f2119b8c3f0939
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Tue Jun 8 16:41:31 2021 +1000
+
+    images added to markdown
+
+commit 60d6b8f4c365e664aa456b179ce354a4c5dac707
+Merge: fb8b2e4 96f97ca
+Author: sam <samuelparkin1@gmail.com>
+Date:   Tue Jun 8 15:12:58 2021 +1000
+
+    tidy up of files and folders
+
+commit 96f97cac21e265c3ba7e7b9f8b3d7ffb2e54ea18
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Sat Jun 5 15:14:26 2021 +1000
+
+    changed header element from H2 to P
+
+commit fb8b2e421f386b4221cfa059363fd2d0f35ab3da
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Sat Jun 5 15:10:47 2021 +1000
+
+    SRI add to all pages expept index
+
+commit 49b9431ef28fff097f47adf19b85048f4a6b3f6c
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Sat Jun 5 15:06:12 2021 +1000
+
+    SRI Hash on connect HTML added for test
+
+commit 8c981eeef8e705f8f85c5323b2c4da7bb06f0326
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Sat Jun 5 14:30:11 2021 +1000
+
+    google ownership verified
+
+commit d4172191c258830e4ed0e162fa3373fef122e224
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Sat Jun 5 14:20:15 2021 +1000
+
+    Google Search Console html added
+
+commit 9675b9fc560a9a788ae038ea738525db56a1b983
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Sat Jun 5 13:57:34 2021 +1000
+
+    sitemap created
+
+commit f106546657b8da4399a93ab42f2710dd50e9e12c
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Sat Jun 5 13:47:14 2021 +1000
+
+    SRI removed
+
+commit 6e557bac32eaba870a7bd8544505d16d32a736ae
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Sat Jun 5 13:44:31 2021 +1000
+
+    SRI added to index
+
+commit 880a0cbf4ecb981ff34667555b762229caea5a67
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Sat Jun 5 13:22:42 2021 +1000
+
+    cleaned up code for easier reading
+
+commit fe9464e22a0a0f212f10f115cc1651f507d30ea3
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Sat Jun 5 13:17:06 2021 +1000
+
+    cleaned up HTML
+
+commit 3cabd2b5b4dcd780d6cee58a4b7d832a39df4ae0
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Sat Jun 5 12:54:24 2021 +1000
+
+    changed my experience folder name to remove space
+
+commit 8a035672a82fb85e8444e3d61e78e3f8494b65c8
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Sat Jun 5 11:59:33 2021 +1000
+
+    minnor change to blog page
+
+commit fabed3810ba7f7a98049f93f7a5478f3217cb5db
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Sat Jun 5 11:55:06 2021 +1000
+
+    change to margin on blog page
+
+commit 539a316714e6c60919cc68a609dc3b46db53ae2b
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Sat Jun 5 11:42:17 2021 +1000
+
+    changed background folder name
+
+commit 420cf003d3741e2428e08fa835d036d73114afd9
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Sat Jun 5 11:33:57 2021 +1000
+
+    still unable to get backgrorong on .io
+
+commit f6f42376090d2667599366cc13989980300e0fdc
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Sat Jun 5 11:30:19 2021 +1000
+
+    trying to resolve background not appearing  git.io
+
+commit 265b0d759528cf4de4882cd073972788d8957a69
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Sat Jun 5 11:21:04 2021 +1000
+
+    chaged background to a smaller flie size
+
+commit f7895c14cde2250791c196d93e1a24b60076adeb
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Sat Jun 5 11:14:33 2021 +1000
+
+    tab icon added to all pages
+
+commit dbc13e2bf0ee2df9a09e67edb31e331d3ccdaf90
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Sat Jun 5 11:08:08 2021 +1000
+
+    my experence content complete
+
+commit 0f135bfa788bd324cf934cd54c2384a7dc5446c0
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Sat Jun 5 08:23:40 2021 +1000
+
+    home page content complete
+
+commit ba7a42f197f31c5415b579df80d8588ad915baec
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Sat Jun 5 07:14:50 2021 +1000
+
+    home page working on all screen sizes
+
+commit 05243cc032ee29325649797c6da01190015bbc92
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Sat Jun 5 06:33:23 2021 +1000
+
+    change all pages to have a main section
+
+commit 3721e0b0276747ef96f6e95d2f52da5cba2d95e0
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Sat Jun 5 06:29:02 2021 +1000
+
+    changed borders on blog page to matchthe others
+
+commit da02a80e73f17be21eff65f92c2dc1f76b3dfa81
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Fri Jun 4 19:46:43 2021 +1000
+
+    contact card working on all screen sizes
+
+commit 5341f0b238c5282aaa8813074cfecd1f026e7c9e
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Fri Jun 4 19:45:47 2021 +1000
+
+    contact card working on all sizes
+
+commit 868297b468b3fb9da4b95fcbbf59217fea8e32ff
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Fri Jun 4 13:46:31 2021 +1000
+
+    started on contact page. changeing branch
+
+commit bcbb9a265cb5dec44aa04abf100c4faf0e60b277
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Fri Jun 4 13:17:01 2021 +1000
+
+    corrected minor error
+
+commit e68513e10a5ed3656b224d33c07dfdd034e1cb44
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Fri Jun 4 13:15:46 2021 +1000
+
+    Experience layout complete. needs more content
+
+commit 3dd0604764463b44f8769856a4890a82f19a2d66
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Fri Jun 4 11:47:29 2021 +1000
+
+    Experence layout draft
+
+commit 2e47eecbe5e694abffa42d1959f1878e57ca48c9
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Fri Jun 4 09:41:24 2021 +1000
+
+    top and bottom navbar reactive to tablet
+
+commit 026bbd8b98ad4a22bae3d8a4962a443f1d8b3f62
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Fri Jun 4 08:11:59 2021 +1000
+
+    moved desktop header settings up the mobile
+
+commit bd69fe6dfd624454a290fd9cbce52629ac8de200
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Fri Jun 4 08:02:56 2021 +1000
+
+    blog page content working for mobile tab and desktop
+
+commit ad6fb194e227ecbf2ed728abbc2da2a9e48a634f
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Thu Jun 3 17:21:39 2021 +1000
+
+    Browser blog completed
+
+commit 07777964f517a08a37b83ba03ee5599c432f785e
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Thu Jun 3 15:42:21 2021 +1000
+
+    Blog Mobile content and css completed
+
+commit 52de87d174c8b74d01ee8aa3e3ee539c965f8334
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Thu Jun 3 10:56:33 2021 +1000
+
+    slight header changes
+
+commit 0f7de74f30ba71e98b50139fab41362da8e7fc9e
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Thu Jun 3 09:44:06 2021 +1000
+
+    avtar and start on home page content
+
+commit 7ac6fcaf18d64cd51ca96c4ae0b0c0d5c3dc833b
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Wed Jun 2 11:53:07 2021 +1000
+
+    avatar.png added
+
+commit 0cb4f59676ad73385380bcd7af5acba618e29a62
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Wed Jun 2 11:01:22 2021 +1000
+
+    footer responsive to mobile
+
+commit a8175024891b841fc3230f7f631b2300d96f8469
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Wed Jun 2 10:50:26 2021 +1000
+
+    Footer working on all pages.
+    Set Body to flex.
+
+commit e74e0d659fccaec6ab508c22e1750f7fbd150b6c
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Tue Jun 1 17:03:08 2021 +1000
+
+    footer added to all pages
+
+commit ba040a6bf58fd9b75122701b6d29bd5800324329
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Tue Jun 1 13:40:02 2021 +1000
+
+    Changed desktop navbar to flexbox
+
+commit 833dd7162f1ed57c7978c1b975744c26a37e5fa5
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Tue Jun 1 12:17:03 2021 +1000
+
+    Desktop header and navbar line up
+
+commit 6d2d48781e12466c1adc01d830292d326a233bc3
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Tue Jun 1 12:04:46 2021 +1000
+
+    browser nav bar working
+
+commit 26b15ba0cab94951ef9d3ece41f1730d1ea7baff
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Tue Jun 1 10:36:41 2021 +1000
+
+    Background has been set
+
+commit e21955520fb3f77ca37fba75d7da10e0a8b8a968
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Mon May 31 19:48:16 2021 +1000
+
+    Dropdown text size changed
+
+commit b572f6522932f360c67d691729f61658b743ce84
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Mon May 31 19:20:53 2021 +1000
+
+    pulled all files back out of new file. still unble to get github.io working
+
+commit 72bdb6065a8c6e2ba470dbcb4804a68b5bbd1822
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Mon May 31 19:15:45 2021 +1000
+
+    moved all files into a new portfolio folder
+
+commit 3091062c970a33c7cf792059eca7d29ff973482b
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Mon May 31 18:54:27 2021 +1000
+
+    minor changes made to page titles
+
+commit 9f1a28760b9bfdabfb8807e915239604a8cf82e8
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Mon May 31 18:45:20 2021 +1000
+
+    Mobile transition header working
+
+commit c5babbbaa3db8c74dff393862ca6c7147968961b
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Mon May 31 17:32:31 2021 +1000
+
+    included box-sizing: border-box to css
+
+commit 708d59baff53a26309cb2e755cc1704bf187b82c
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Mon May 31 16:30:13 2021 +1000
+
+    default fonts addedd
+
+commit 3648f19fd36fc6fc21b5e3524de5ef6fe5b2d502
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Mon May 31 16:25:31 2021 +1000
+
+    Blog page navbar working. had img issue
+
+commit 225a98182a19cf29267c50e7984cf856d9adc435
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Mon May 31 15:56:29 2021 +1000
+
+    narbar in blog notworking correctly
+
+commit 9f4e365d8a32134e959e1dcf512eaee830b5c4ae
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Mon May 31 15:41:35 2021 +1000
+
+    Default margins and padding removed
+
+commit 40314e6141ff8374dbdead6acfa45be4286d4818
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Mon May 31 15:40:45 2021 +1000
+
+    Dropdown fade transition added
+
+commit 26ffb5c89125aabf2d46c8e7df2e7e71573e2d72
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Mon May 31 15:38:39 2021 +1000
+
+    Mobile navbar css addedd
+
+commit fd1371af5fc22a611593f7f22aa971950a7f60f3
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Mon May 31 15:31:48 2021 +1000
+
+    Mobile navbar css added
+
+commit 4ca1f3dc4dc42812a08912d59bd4bd5e1623501a
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Mon May 31 15:22:29 2021 +1000
+
+    Navigation HTML added to all pages
+
+commit 948fb1501410070070ac6aec31fe702cfa80c389
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Mon May 31 15:09:37 2021 +1000
+
+    unsure on changes
+
+commit 223e1b184d670c933562d562906a5384bf593956
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Fri May 28 14:51:49 2021 +1000
+
+    my experience content started
+
+commit 76e829b7dafd3b92d035175e30bb30a8db9b37f1
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Fri May 28 14:40:31 2021 +1000
+
+    content of case studies with pictures
+
+commit 8072aa052e673d0505cf296f9c7cda39e461e478
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Fri May 28 13:38:40 2021 +1000
+
+    blog picture are added and been cropped for mobile and browser
+
+commit 65a5dcfc9c075c0df35df1612c52d86ac12eb758
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Fri May 28 12:56:37 2021 +1000
+
+    case study content added
+
+commit 8a35519681c3f81b74dd108589a8218893c3692e
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Fri May 28 11:34:13 2021 +1000
+
+    <!DOCTYPE html> added to all HTML
+
+commit eae640e1f9a732a593a7751fb2bbc2ab3d5013ce
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Fri May 28 11:30:48 2021 +1000
+
+    created blank HTML pages
+
+commit ea2043e4150035df90e5fe5d02b4b81e89adbfc2
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Fri May 28 11:24:54 2021 +1000
+
+    a fresh start
+
+commit e326b1e50c54b6016093d38265e4eb683ea4b431
+Author: samuelparkin1 <samuelparkin1@gmail.com>
+Date:   Fri May 28 11:13:42 2021 +1000
+
+    some helpfull images add for later
