@@ -20,7 +20,7 @@
       * [ Hamburger menu for Phone browser. ](#Hamburger_menu_for_Phone_browser)
       * [ Top Navigation selection and hover for desktop browser. ](#Top_Navigation_selection)  
       * [ Hovering footer links for desktop browser.](#Hovering_footer_links)
-      * [ Black blank canvas.](#Black_blank_canvas)
+      * [ "content tile/card".](#"content_tile/card")
     + [ Screenshots. ](#Screenshots)  
       * [ Home Page. ](#Home_Page)
       * [ Experience. ](#Experience)
@@ -30,7 +30,7 @@ ___
 
 
 ## Published portfolio website.
-Samuel Parkin's Portfolio pages can be found at [samuelparkin1.github.io/](#https://samuelparkin1.github.io/)  
+Samuel Parkin's Portfolio pages can be found at [samuelparkin1.github.io/](https://samuelparkin1.github.io/)  
 
 [ *Back to Table of Contents* ](#Table_of_Contents)
 <br>   
@@ -38,7 +38,7 @@ ___
 
 <a name="Github_link"></a>
 ## Portfolio Page repository. 
-To review all code and documents associated to Samuel Parkin's Portfolio Page go to  [github.com/samuelparkin1](#https://github.com/samuelparkin1/samuelparkin1.github.io)  
+To review all code and documents associated to Samuel Parkin's Portfolio Page go to  [github.com/samuelparkin1](https://github.com/samuelparkin1/samuelparkin1.github.io)  
 
 [ *Back to Table of Contents* ](#Table_of_Contents)
 <br>   
@@ -60,7 +60,7 @@ ___
 ### Target audience.
 The target audience for this portfolio website is for potential employers / clients that are seeking to engage with myself as a dev and/or IT professional.
 This portfolio will show case my professionalism and a positive work ethic.
-The portfolio has been developed recognizing that there will be an understanding of technical knowledge relating to information technology, software development/coding, programming languages and development stacks by the employer.
+The portfolio has been developed recognizing that there will be an understanding of technical knowledge relating to information technology, software development/coding, programming languages and development stacks by an employer.
 
 [ *Back to Table of Contents* ](#Table_of_Contents)
 <br>   
@@ -70,7 +70,7 @@ ___
 ### Sitemap. 
  The below site map helps illustrate the flow and content of my portfolio.
 
- The content on the **Home page** shares with the visitor who I am and that I am an expiring Dev IT professional. I have used my wording in the content to show my personality as someone who is friendly and approachable. 
+ The content on the **Home page** shares with the visitor 'who I am' and that 'I am an expiring Dev IT professional'. I have used my wording in the content to show my personality as someone who is friendly and approachable. 
 
 Within the **Experience** page I have showcased my IT skills by sharing my knowledge within different coding languages and coding practices. It also shares my previous work history and abilities and goes on to sharing a link to a PDF of my resume.  
 
@@ -88,9 +88,9 @@ ___
 ### Tech stack. 
 The tech stack diagram shows the flow and list all the technology services used to build the Portfolio website.  
 
-In the **Design** stage Balsamiq Wireframe was used to generate digital sketches of the ideas and concept to be used on the portfolio.
+In the **Design** stage, Balsamiq Wireframe was used to generate digital sketches of the ideas and concept to be used on the portfolio.
 
-While in the **Create** stage, VS studio was used to write the HTML and CSS code. Throughout the create stage GIT was continuously used as the repository system. At the final stage of creating the portfolio XML-Sitemaps was used to create the portfolios XML code.
+While in the **Create** stage, VS studio was used to write the HTML and CSS code. Throughout the **Create** stage GIT was continuously used as the repository system. At the final stage of creating the portfolio XML-Sitemaps was used to create the portfolios XML code.
 
 When the site was ready to **Deploy**, the final code was uploaded to GitHub in order to be view by the web. The Lighthouse tool helped ensure that the Portfolio page has adequate performance and accessibility. To improve search visibility, Google Search Console was used to help in the measuring of the portfolios search traffic and performance.  
 
@@ -131,7 +131,7 @@ ___
 
 <a name="Scrolling_Header"></a>  
 + ### Scrolling Header.    
-  Each page shares a common theme with a Scrolling transition within the Header. As the content is scrolled up the Title within the header transitions from white to black.  
+  Each page shares a common theme with a Scrolling transition within the Header. As the content is scrolled up, the title within the header transitions from black to white.  
 
   <img src="docs\Functionality_and_features\Scroll_Transition.png" alt="scroll transition" width="300"/>  
   
@@ -156,18 +156,17 @@ ___
 
 <a name="Hovering_footer_links"></a>  
   + ### Hovering footer links for desktop browser.
-    Each page shares a common footer theme with links to professional and social media accounts. when the mouse hovers over an icon, the icon will lift slightly to indicate it has been selected.  
+    Each page shares a common footer theme with links to professional and social media accounts. When the mouse hovers over an icon, the icon will lift slightly to indicate it has been selected.  
 
     <img src="docs\Functionality_and_features\Icon_Hover.png" alt="Icon Hover" width="300"/>
       
 <br>  
 
-<a name="Black_blank_canvas"></a>
-+ ### Black blank canvas.
-  Each page has a black sheet as its background. 
-  This was chosen to symbolise as a blank canvas and that my coding experience is still at its early stages.  
+<a name="content_tile/card"></a>
++ ### content tile/card.
+ All content has been presented on it own rile /card. This was used to bring the focus of the user to just on that contents information. 
     
-  <img src="ppt\black_dropsheet.jpg" alt="website background image" width="300"/>  
+  <img src="docs/Functionality_and_features/content_cards.PNG" alt="content tile image" width="300"/>  
 
 [ *Back to Table of Contents* ](#Table_of_Contents)
 <br>   
